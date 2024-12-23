@@ -11,9 +11,23 @@ config_version=5
 [application]
 
 config/name="(1st)_Farming"
+run/main_scene="res://scene/1_st_tilemap.tscn"
 config/features=PackedStringArray("4.3", "Forward Plus")
-config/icon="res://icon.svg"
+config/icon="res://asset/icon.svg"
+
+[display]
+
+window/size/viewport_width=2304
+window/size/viewport_height=1296
+window/size/window_width_override=1280
+window/size/window_height_override=720
+window/stretch/aspect="keep_height"
+window/stretch/scale_mode="integer"
 
 [dotnet]
 
 project/assembly_name="(1st)_Farming"
+
+[rendering]
+
+textures/canvas_textures/default_texture_filter=0
